@@ -1,0 +1,56 @@
+[Appium] Welcome to Appium v1.9.1
+[Appium] Non-default server args:
+[Appium]   port: 50048
+[Appium]   loglevel: info
+[Appium]   chromeDriverPort: 50049
+[Appium]   tmpDir: /var/folders/9l/khn3kwq157d5_9fmjmkwpx0m0000gq/T//Katalon/Appium/Temp1580354849814
+[Appium] Appium REST http interface listener started on 0.0.0.0:50048
+[HTTP] --> GET /wd/hub/status
+[HTTP] {}
+[HTTP] <-- GET /wd/hub/status 200 7 ms - 67
+[HTTP] 
+[HTTP] --> GET /wd/hub/status
+[HTTP] {}
+[HTTP] <-- GET /wd/hub/status 200 1 ms - 67
+[HTTP] 
+[HTTP] --> POST /wd/hub/session
+[HTTP] {"desiredCapabilities":{"app":"/Users/helkia.pasaribu/Documents/AUTOMATION/KatalonAutomation/rwb_139_4cabb735_staging.apk","noReset":true,"deviceName":"Xiaomi Redmi 4A (Android 7.1.2)","fullReset":false,"platform":"ANDROID","newCommandTimeout":1800,"platformVersion":"7.1.2","automationName":"uiautomator2","autoGrantPermissions":true,"platformName":"Android","udid":"d4d684f7d940","systemPort":50064},"capabilities":{"firstMatch":[{"appium:app":"/Users/helkia.pasaribu/Documents/AUTOMATION/KatalonAutomation/rwb_139_4cabb735_staging.apk","appium:autoGrantPermissions":true,"appium:automationName":"uiautomator2","appium:deviceName":"Xiaomi Redmi 4A (Android 7.1.2)","appium:fullReset":false,"appium:newCommandTimeout":1800,"appium:noReset":true,"platform":"ANDROID","platformName":"android","appium:platformVersion":"7.1.2","appium:systemPort":50064,"appium:udid":"d4d684f7d940"}]}}
+[BaseDriver] The capabilities ["platform"] are not standard capabilities and should have an extension prefix
+[Appium] Creating new AndroidUiautomator2Driver (v1.19.0) session
+[Appium] Capabilities:
+[Appium]   platform: ANDROID
+[Appium]   platformName: android
+[Appium]   app: /Users/helkia.pasaribu/Documents/AUTOMATION/KatalonAutomation/rwb_139_4cabb735_staging.apk
+[Appium]   autoGrantPermissions: true
+[Appium]   automationName: uiautomator2
+[Appium]   deviceName: Xiaomi Redmi 4A (Android 7.1.2)
+[Appium]   fullReset: false
+[Appium]   newCommandTimeout: 1800
+[Appium]   noReset: true
+[Appium]   platformVersion: 7.1.2
+[Appium]   systemPort: 50064
+[Appium]   udid: d4d684f7d940
+[BaseDriver] The following capabilities were provided, but are not recognized by appium: platform.
+[BaseDriver] Session created with session id: 5a88ae15-d696-4cbc-9cb8-2a78fcd7c39d
+[BaseDriver] Using local app '/Users/helkia.pasaribu/Documents/AUTOMATION/KatalonAutomation/rwb_139_4cabb735_staging.apk'
+[AndroidDriver] Java version is: 1.8.0_181
+[ADB] Checking whether adb is present
+[ADB] Found 1 'build-tools' folders under '/Users/helkia.pasaribu/.katalon/tools/android_sdk' (newest first):
+[ADB]     /Users/helkia.pasaribu/.katalon/tools/android_sdk/build-tools/29.0.2
+[ADB] Using adb from /Users/helkia.pasaribu/.katalon/tools/android_sdk/platform-tools/adb
+[AndroidDriver] Retrieving device list
+[AndroidDriver] Using device: d4d684f7d940
+[ADB] Using apkanalyzer from /Users/helkia.pasaribu/.katalon/tools/android_sdk/tools/bin/apkanalyzer
+[ADB] Package name: 'com.dai.uangteman'
+[ADB] Main activity name: 'com.dai.uangteman.view.activity.SplashScreenActivity'
+[ADB] Getting device platform version
+[ADB] Using apksigner from /Users/helkia.pasaribu/.katalon/tools/android_sdk/build-tools/29.0.2/apksigner
+[ADB] Checking whether zipalign is present
+[ADB] Using zipalign from /Users/helkia.pasaribu/.katalon/tools/android_sdk/build-tools/29.0.2/zipalign
+[ADB] io.appium.uiautomator2.server was not uninstalled, because it was not present on the device
+[ADB] io.appium.uiautomator2.server.test was not uninstalled, because it was not present on the device
+[UiAutomator2] Did not get confirmation UiAutomator2 deleteSession worked; Error was: UnknownError: An unknown server-side error occurred while processing the command. Original error: Trying to proxy a session command without session id
+[UiAutomator2] Unable to remove port forward 'Error executing adbExec. Original error: 'Command '/Users/helkia.pasaribu/.katalon/tools/android_sdk/platform-tools/adb -P 5037 -s d4d684f7d940 forward --remove tcp\:50064' exited with code 1'; Stderr: 'adb: error: listener 'tcp:50064' not found'; Code: '1''
+[HTTP] <-- POST /wd/hub/session 500 18087 ms - 2099
+[HTTP] 
+[Appium] Received SIGTERM - shutting down

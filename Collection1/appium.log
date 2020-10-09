@@ -1,0 +1,169 @@
+[35m[Appium][39m Welcome to Appium v1.16.0
+[35m[Appium][39m Non-default server args:
+[35m[Appium][39m   port: 56170
+[35m[Appium][39m   loglevel: info
+[35m[Appium][39m   chromeDriverPort: 56171
+[35m[Appium][39m   tmpDir: /var/folders/9l/khn3kwq157d5_9fmjmkwpx0m0000gq/T//Katalon/Appium/Temp1585216730299
+[35m[Appium][39m Appium REST http interface listener started on 0.0.0.0:56170
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/status[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/status [39m[32m200[39m [90m67 ms - 68[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/status[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/status [39m[32m200[39m [90m33 ms - 68[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session[39m
+[35m[HTTP][39m [90m{"desiredCapabilities":{"app":"/Users/helkia.pasaribu/Downloads/collection v0.0.1.apk","noReset":true,"newCommandTimeout":1800,"platformVersion":"6.0.1","autoGrantPermissions":true,"platformName":"Android","udid":"4200f7b1cc13a3dd","deviceName":"samsung SM-G532G (Android 6.0.1)","fullReset":false,"platform":"ANDROID","systemPort":56221},"capabilities":{"firstMatch":[{"appium:app":"/Users/helkia.pasaribu/Downloads/collection v0.0.1.apk","appium:autoGrantPermissions":true,"appium:deviceName":"samsung SM-G532G (Android 6.0.1)","appium:fullReset":false,"appium:newCommandTimeout":1800,"appium:noReset":true,"platform":"ANDROID","platformName":"android","appium:platformVersion":"6.0.1","appium:systemPort":56221,"appium:udid":"4200f7b1cc13a3dd"}]}}[39m
+[35m[BaseDriver][39m The capabilities ["platform"] are not standard capabilities and should have an extension prefix
+[35m[Appium][39m 
+[35m[Appium][39m ======================================================================
+[35m[Appium][39m   DEPRECATION WARNING:
+[35m[Appium][39m 
+[35m[Appium][39m   The 'automationName' capability was not provided in the desired 
+[35m[Appium][39m   capabilities for this Android session
+[35m[Appium][39m 
+[35m[Appium][39m   Setting 'automationName=UiAutomator2' by default and using the 
+[35m[Appium][39m   UiAutomator2 Driver
+[35m[Appium][39m 
+[35m[Appium][39m   The next major version of Appium (2.x) will **require** the 
+[35m[Appium][39m   'automationName' capability to be set for all sessions on all 
+[35m[Appium][39m   platforms
+[35m[Appium][39m 
+[35m[Appium][39m   In previous versions (Appium <= 1.13.x), the default was 
+[35m[Appium][39m   'automationName=UiAutomator1'
+[35m[Appium][39m 
+[35m[Appium][39m   If you wish to use that automation instead of UiAutomator2, please 
+[35m[Appium][39m   add 'automationName=UiAutomator1' to your desired capabilities
+[35m[Appium][39m 
+[35m[Appium][39m   For more information about drivers, please visit 
+[35m[Appium][39m   http://appium.io/docs/en/about-appium/intro/ and explore the 
+[35m[Appium][39m   'Drivers' menu
+[35m[Appium][39m 
+[35m[Appium][39m ======================================================================
+[35m[Appium][39m 
+[35m[Appium][39m Appium v1.16.0 creating new AndroidUiautomator2Driver (v1.40.0) session
+[35m[BaseDriver][39m The following capabilities were provided, but are not recognized by Appium:
+[35m[BaseDriver][39m   platform
+[35m[BaseDriver][39m Session created with session id: 3600b15d-e7e2-47d4-9594-a16f7075d680
+[35m[BaseDriver][39m Using local app '/Users/helkia.pasaribu/Downloads/collection v0.0.1.apk'
+[35m[ADB][39m Found 1 'build-tools' folders under '/Users/helkia.pasaribu/.katalon/tools/android_sdk' (newest first):
+[35m[ADB][39m     /Users/helkia.pasaribu/.katalon/tools/android_sdk/build-tools/29.0.2
+[35m[ADB][39m Using 'adb' from '/Users/helkia.pasaribu/.katalon/tools/android_sdk/platform-tools/adb'
+[35m[AndroidDriver][39m Retrieving device list
+[35m[AndroidDriver][39m Using device: 4200f7b1cc13a3dd
+[35m[ADB][39m Using 'adb' from '/Users/helkia.pasaribu/.katalon/tools/android_sdk/platform-tools/adb'
+[35m[ADB][39m Package name: 'com.dai.collection'
+[35m[ADB][39m Main activity name: 'com.dai.collection.MainActivity'
+[35m[AndroidDriver][39m Granting android.permission.SET_ANIMATION_SCALE, CHANGE_CONFIGURATION, ACCESS_FINE_LOCATION by pm grant
+[35m[ADB][39m Using 'apksigner' from '/Users/helkia.pasaribu/.katalon/tools/android_sdk/build-tools/29.0.2/apksigner'
+[35m[UiAutomator2][39m Server packages are not going to be (re)installed
+[35m[ADB][39m The application at '/Users/helkia.pasaribu/Downloads/collection v0.0.1.apk' is already cached to '/data/local/tmp/appium_cache/00040e2e0b788f7fe93f2afbd477c8aa4d402adc.apk'
+[35m[ADB][39m The installation of 'collection v0.0.1.apk' took 15.802s
+[35m[UiAutomator2][39m Starting UIAutomator2 server 4.5.2
+[35m[UiAutomator2][39m Using UIAutomator2 server from '/usr/local/lib/node_modules/appium/node_modules/appium-uiautomator2-server/apks/appium-uiautomator2-server-v4.5.2.apk' and test from '/usr/local/lib/node_modules/appium/node_modules/appium-uiautomator2-server/apks/appium-uiautomator2-server-debug-androidTest.apk'
+[35m[UiAutomator2][39m Waiting up to 30000ms for UiAutomator2 to be online...
+[35m[WD Proxy][39m Got an unexpected response with status undefined: {"code":"ECONNRESET"}
+[35m[WD Proxy][39m Got an unexpected response with status undefined: {"code":"ECONNRESET"}
+[35m[WD Proxy][39m Determined the downstream protocol as 'W3C'
+[35m[AndroidDriver][39m Screen already unlocked, doing nothing
+[35m[UiAutomator2][39m Starting 'com.dai.collection/com.dai.collection.MainActivity and waiting for 'com.dai.collection/com.dai.collection.MainActivity'
+[35m[Appium][39m New AndroidUiautomator2Driver session created successfully, session 3600b15d-e7e2-47d4-9594-a16f7075d680 added to master session list
+[35m[HTTP][39m [37m<-- POST /wd/hub/session [39m[32m200[39m [90m42375 ms - 1171[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/3600b15d-e7e2-47d4-9594-a16f7075d680[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/3600b15d-e7e2-47d4-9594-a16f7075d680 [39m[32m200[39m [90m52 ms - 1103[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/3600b15d-e7e2-47d4-9594-a16f7075d680[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/3600b15d-e7e2-47d4-9594-a16f7075d680 [39m[32m200[39m [90m41 ms - 1103[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/status[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/status [39m[32m200[39m [90m32 ms - 68[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/3600b15d-e7e2-47d4-9594-a16f7075d680/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":60000}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/3600b15d-e7e2-47d4-9594-a16f7075d680/timeouts [39m[32m200[39m [90m45 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/3600b15d-e7e2-47d4-9594-a16f7075d680/source[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (3600b15d)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId 429b4e9a-f20a-4077-a4a0-6ef8d3cbbccd with 3600b15d-e7e2-47d4-9594-a16f7075d680
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/3600b15d-e7e2-47d4-9594-a16f7075d680/source [39m[32m200[39m [90m102 ms - 2748[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/3600b15d-e7e2-47d4-9594-a16f7075d680/screenshot[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/3600b15d-e7e2-47d4-9594-a16f7075d680/screenshot [39m[32m200[39m [90m380 ms - 12694[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/3600b15d-e7e2-47d4-9594-a16f7075d680/source[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (3600b15d)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId 429b4e9a-f20a-4077-a4a0-6ef8d3cbbccd with 3600b15d-e7e2-47d4-9594-a16f7075d680
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/3600b15d-e7e2-47d4-9594-a16f7075d680/source [39m[32m200[39m [90m181 ms - 12258[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/3600b15d-e7e2-47d4-9594-a16f7075d680/screenshot[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/3600b15d-e7e2-47d4-9594-a16f7075d680/screenshot [39m[32m200[39m [90m379 ms - 52268[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/3600b15d-e7e2-47d4-9594-a16f7075d680/source[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (3600b15d)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId 429b4e9a-f20a-4077-a4a0-6ef8d3cbbccd with 3600b15d-e7e2-47d4-9594-a16f7075d680
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/3600b15d-e7e2-47d4-9594-a16f7075d680/source [39m[32m200[39m [90m282 ms - 27710[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/3600b15d-e7e2-47d4-9594-a16f7075d680/screenshot[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/3600b15d-e7e2-47d4-9594-a16f7075d680/screenshot [39m[32m200[39m [90m1158 ms - 747232[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/3600b15d-e7e2-47d4-9594-a16f7075d680/source[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (3600b15d)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId 429b4e9a-f20a-4077-a4a0-6ef8d3cbbccd with 3600b15d-e7e2-47d4-9594-a16f7075d680
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/3600b15d-e7e2-47d4-9594-a16f7075d680/source [39m[32m200[39m [90m170 ms - 12258[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/3600b15d-e7e2-47d4-9594-a16f7075d680/screenshot[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/3600b15d-e7e2-47d4-9594-a16f7075d680/screenshot [39m[32m200[39m [90m390 ms - 51410[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/3600b15d-e7e2-47d4-9594-a16f7075d680/source[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (3600b15d)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId 429b4e9a-f20a-4077-a4a0-6ef8d3cbbccd with 3600b15d-e7e2-47d4-9594-a16f7075d680
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/3600b15d-e7e2-47d4-9594-a16f7075d680/source [39m[32m200[39m [90m125 ms - 12258[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/3600b15d-e7e2-47d4-9594-a16f7075d680/screenshot[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/3600b15d-e7e2-47d4-9594-a16f7075d680/screenshot [39m[32m200[39m [90m385 ms - 51410[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/3600b15d-e7e2-47d4-9594-a16f7075d680/source[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (3600b15d)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId 429b4e9a-f20a-4077-a4a0-6ef8d3cbbccd with 3600b15d-e7e2-47d4-9594-a16f7075d680
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/3600b15d-e7e2-47d4-9594-a16f7075d680/source [39m[32m200[39m [90m482 ms - 12258[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/3600b15d-e7e2-47d4-9594-a16f7075d680/screenshot[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/3600b15d-e7e2-47d4-9594-a16f7075d680/screenshot [39m[32m200[39m [90m373 ms - 51374[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/3600b15d-e7e2-47d4-9594-a16f7075d680/source[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (3600b15d)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId 429b4e9a-f20a-4077-a4a0-6ef8d3cbbccd with 3600b15d-e7e2-47d4-9594-a16f7075d680
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/3600b15d-e7e2-47d4-9594-a16f7075d680/source [39m[32m200[39m [90m225 ms - 12258[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/3600b15d-e7e2-47d4-9594-a16f7075d680/screenshot[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/3600b15d-e7e2-47d4-9594-a16f7075d680/screenshot [39m[32m200[39m [90m455 ms - 50868[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mDELETE[39m [37m/wd/hub/session/3600b15d-e7e2-47d4-9594-a16f7075d680[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[Appium][39m Removing session 3600b15d-e7e2-47d4-9594-a16f7075d680 from our master session list
+[35m[HTTP][39m [37m-->[39m [37mDELETE[39m [37m/wd/hub/session/3600b15d-e7e2-47d4-9594-a16f7075d680[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- DELETE /wd/hub/session/3600b15d-e7e2-47d4-9594-a16f7075d680 [39m[33m404[39m [90m160 ms - 2407[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m<-- DELETE /wd/hub/session/3600b15d-e7e2-47d4-9594-a16f7075d680 [39m[32m200[39m [90m1976 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[Appium][39m Received SIGTERM - shutting down

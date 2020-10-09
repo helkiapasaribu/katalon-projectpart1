@@ -1,0 +1,102 @@
+[35m[Appium][39m Welcome to Appium v1.17.0
+[35m[Appium][39m Non-default server args:
+[35m[Appium][39m   port: 51505
+[35m[Appium][39m   loglevel: info
+[35m[Appium][39m   tmpDir: /var/folders/5l/yzchnl792jnb4qnxwn50ghnc0000gp/T//Katalon/Appium/Temp1589106898761
+[35m[Appium][39m   chromedriverPort: 51506
+[35m[Appium][39m Deprecated server args:
+[35m[Appium][39m   [31m--chromedriver-port[39m => --default-capabilities '{"chromedriverPort":51506}'
+[35m[Appium][39m Default capabilities, which will be added to each request unless overridden by desired capabilities:
+[35m[Appium][39m   chromedriverPort: 51506
+[35m[Appium][39m Appium REST http interface listener started on 0.0.0.0:51505
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/status[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/status [39m[32m200[39m [90m5 ms - 68[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/status[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/status [39m[32m200[39m [90m1 ms - 68[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session[39m
+[35m[HTTP][39m [90m{"desiredCapabilities":{"app":"/Users/helkia.pasaribu/Documents/Automation/Katalon Studio/oke/APK/collection v0.0.1.apk","noReset":true,"deviceName":"Xiaomi Redmi 4A (Android 7.1.2)","fullReset":false,"platform":"ANDROID","newCommandTimeout":1800,"platformVersion":"7.1.2","automationName":"uiautomator2","autoGrantPermissions":true,"platformName":"Android","udid":"d4d684f7d940","systemPort":51516},"capabilities":{"firstMatch":[{"appium:app":"/Users/helkia.pasaribu/Documents/Automation/Katalon Studio/oke/APK/collection v0.0.1.apk","appium:autoGrantPermissions":true,"appium:automationName":"uiautomator2","appium:deviceName":"Xiaomi Redmi 4A (Android 7.1.2)","appium:fullReset":false,"appium:newCommandTimeout":1800,"appium:noReset":true,"platform":"ANDROID","platformName":"android","appium:platformVersion":"7.1.2","appium:systemPort":51516,"appium:udid":"d4d684f7d940"}]}}[39m
+[35m[BaseDriver][39m The following capabilities are not standard capabilities and should have an extension prefix:
+[35m[BaseDriver][39m   platform
+[35m[BaseDriver][39m   chromedriverPort
+[35m[Appium][39m Appium v1.17.0 creating new AndroidUiautomator2Driver (v1.44.2) session
+[35m[BaseDriver][39m The following capabilities were provided, but are not recognized by Appium:
+[35m[BaseDriver][39m   platform
+[35m[BaseDriver][39m Session created with session id: 66ddb868-204f-4d64-a4aa-7160259c9cd6
+[35m[BaseDriver][39m Using local app '/Users/helkia.pasaribu/Documents/Automation/Katalon Studio/oke/APK/collection v0.0.1.apk'
+[35m[ADB][39m Found 1 'build-tools' folders under '/Users/helkia.pasaribu/.katalon/tools/android_sdk' (newest first):
+[35m[ADB][39m     /Users/helkia.pasaribu/.katalon/tools/android_sdk/build-tools/29.0.3
+[35m[ADB][39m Using 'adb' from '/Users/helkia.pasaribu/.katalon/tools/android_sdk/platform-tools/adb'
+[35m[AndroidDriver][39m Retrieving device list
+[35m[AndroidDriver][39m Using device: d4d684f7d940
+[35m[ADB][39m Using 'adb' from '/Users/helkia.pasaribu/.katalon/tools/android_sdk/platform-tools/adb'
+[35m[ADB][39m Package name: 'com.dai.collection'
+[35m[ADB][39m Main activity name: 'com.dai.collection.MainActivity'
+[35m[ADB][39m The application at '/usr/local/lib/node_modules/appium/node_modules/io.appium.settings/apks/settings_apk-debug.apk' will not be cached, because the device under test has confirmed the support of streamed installs
+[35m[ADB][39m The installation of 'settings_apk-debug.apk' took 15362ms
+[35m[ADB][39m Using 'apksigner.jar' from '/Users/helkia.pasaribu/.katalon/tools/android_sdk/build-tools/29.0.3/lib/apksigner.jar'
+[35m[UiAutomator2][39m Server packages are going to be (re)installed
+[35m[ADB][39m The application at '/usr/local/lib/node_modules/appium/node_modules/appium-uiautomator2-server/apks/appium-uiautomator2-server-v4.5.5.apk' will not be cached, because the device under test has confirmed the support of streamed installs
+[35m[ADB][39m The installation of 'appium-uiautomator2-server-v4.5.5.apk' took 13052ms
+[35m[ADB][39m The application at '/usr/loc[35m[Appium][39m Received SIGTERM - shutting down
+omator2-server/apks/appium-uiautomator2-server-debug-androidTest.apk' will not be cached, because the device under test has confirmed the support of streamed installs
+[35m[ADB][39m The installation of 'appium-uiautomator2-server-debug-androidTest.apk' took 10903ms
+[35m[ADB][39m The application at '/Users/helkia.pasaribu/Documents/Automation/Katalon Studio/oke/APK/collection v0.0.1.apk' will not be cached, because the device under test has confirmed the support of streamed installs
+[35m[ADB][39m The installation of 'collection v0.0.1.apk' took 23287ms
+[35m[UiAutomator2][39m Starting UIAutomator2 server 4.5.5
+[35m[UiAutomator2][39m Using UIAutomator2 server from '/usr/local/lib/node_modules/appium/node_modules/appium-uiautomator2-server/apks/appium-uiautomator2-server-v4.5.5.apk' and test from '/usr/local/lib/node_modules/appium/node_modules/appium-uiautomator2-server/apks/appium-uiautomator2-server-debug-androidTest.apk'
+[35m[UiAutomator2][39m Waiting up to 30000ms for UiAutomator2 to be online...
+[35m[WD Proxy][39m Got response with unknown status: {"code":"ECONNRESET"}
+[35m[WD Proxy][39m Got response with unknown status: {"code":"ECONNRESET"}
+[35m[WD Proxy][39m Got response with unknown status: {"code":"ECONNRESET"}
+[35m[WD Proxy][39m Got response with unknown status: {"code":"ECONNRESET"}
+[35m[WD Proxy][39m Determined the downstream protocol as 'W3C'
+[35m[AndroidDriver][39m Screen already unlocked, doing nothing
+[35m[UiAutomator2][39m Starting 'com.dai.collection/com.dai.collection.MainActivity and waiting for 'com.dai.collection/com.dai.collection.MainActivity'
+[35m[Appium][39m New AndroidUiautomator2Driver session created successfully, session 66ddb868-204f-4d64-a4aa-7160259c9cd6 added to master session list
+[35m[HTTP][39m [37m<-- POST /wd/hub/session [39m[32m200[39m [90m84559 ms - 1335[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/66ddb868-204f-4d64-a4aa-7160259c9cd6[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/66ddb868-204f-4d64-a4aa-7160259c9cd6 [39m[32m200[39m [90m35 ms - 1267[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/66ddb868-204f-4d64-a4aa-7160259c9cd6[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/66ddb868-204f-4d64-a4aa-7160259c9cd6 [39m[32m200[39m [90m22 ms - 1267[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/status[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/status [39m[32m200[39m [90m3 ms - 68[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/66ddb868-204f-4d64-a4aa-7160259c9cd6/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":60000}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/66ddb868-204f-4d64-a4aa-7160259c9cd6/timeouts [39m[32m200[39m [90m3 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/66ddb868-204f-4d64-a4aa-7160259c9cd6/source[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (66ddb868)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId 908d62b1-56e3-468f-b17d-172205a59102 with 66ddb868-204f-4d64-a4aa-7160259c9cd6
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/66ddb868-204f-4d64-a4aa-7160259c9cd6/source [39m[32m200[39m [90m303 ms - 2755[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/66ddb868-204f-4d64-a4aa-7160259c9cd6/screenshot[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/66ddb868-204f-4d64-a4aa-7160259c9cd6/screenshot [39m[32m200[39m [90m827 ms - 21106[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/66ddb868-204f-4d64-a4aa-7160259c9cd6/source[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (66ddb868)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId 908d62b1-56e3-468f-b17d-172205a59102 with 66ddb868-204f-4d64-a4aa-7160259c9cd6
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/66ddb868-204f-4d64-a4aa-7160259c9cd6/source [39m[32m200[39m [90m148 ms - 12290[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/66ddb868-204f-4d64-a4aa-7160259c9cd6/screenshot[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/66ddb868-204f-4d64-a4aa-7160259c9cd6/screenshot [39m[32m200[39m [90m473 ms - 78842[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mDELETE[39m [37m/wd/hub/session/66ddb868-204f-4d64-a4aa-7160259c9cd6[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[Appium][39m Removing session 66ddb868-204f-4d64-a4aa-7160259c9cd6 from our master session list
+[35m[HTTP][39m [37m<-- DELETE /wd/hub/session/66ddb868-204f-4d64-a4aa-7160259c9cd6 [39m[32m200[39m [90m1893 ms - 14[39m
+[35m[HTTP][39m [90m[39m
